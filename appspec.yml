@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /build/libs/AplicacionTomcat.war
-    destination: /opt/tomcat/webapps
+  - source: /build/libs/holamundo-0.0.1-SNAPSHOT.war
+    destination: /opt/tomcat/webapps/AplicacionTomcat.war
 hooks:
   ApplicationStop:
     - location: codedeploy-scripts/stop.sh

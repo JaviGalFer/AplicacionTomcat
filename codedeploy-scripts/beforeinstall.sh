@@ -7,4 +7,6 @@ chmod +x /opt/codedeploy-agent/deployment-root/$DEPLOYMENT_GROUP_ID/$DEPLOYMENT_
 cd /opt/codedeploy-agent/deployment-root/$DEPLOYMENT_GROUP_ID/$DEPLOYMENT_ID/deployment-archive/
 
 # Compilar la aplicación Java
-bash gradlew war
+# bash gradlew war
+./gradlew build
+./gradlew war

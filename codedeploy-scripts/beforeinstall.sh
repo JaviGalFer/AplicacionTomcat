@@ -13,7 +13,7 @@ bash gradlew war
 
 # mv AplicacionTomcat/build/libs/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
 
-# mv /opt/codedeploy-agent/deployment-root/$DEPLOYMENT_GROUP_ID/$DEPLOYMENT_ID/deployment-archive/build/libs/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
+mv /opt/codedeploy-agent/deployment-root/$DEPLOYMENT_GROUP_ID/$DEPLOYMENT_ID/deployment-archive/build/libs/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
 
 
 

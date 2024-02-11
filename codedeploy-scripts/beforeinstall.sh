@@ -11,7 +11,9 @@ bash gradlew war
 # Mover el archivo WAR resultante a la carpeta de aplicaciones de Tomcat
 # mv build/libs/holamundo-0.0.1-SNAPSHOT-plain.war /opt/tomcat/webapps/AplicacionTomcat.war
 
-mv AplicacionTomcat/build/libs/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
+# mv AplicacionTomcat/build/libs/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
+
+mv /opt/tomcat/webapps/holamundo-0.0.1-SNAPSHOT.war /opt/tomcat/webapps/AplicacionTomcat.war
 
 
 # Crear directorio para desplegar la aplicación (opcional)
